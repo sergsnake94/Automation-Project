@@ -25,6 +25,7 @@ namespace TestProje
         public void CleanUp()
         {
             driver.Close();
+            //this is Sparta
 
         }
     }
