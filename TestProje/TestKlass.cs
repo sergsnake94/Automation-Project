@@ -106,6 +106,7 @@ namespace TestProje
             "Звукові карти",
             };
             for (int i = 0; i < refCategories.Count; i++)
+<<<<<<< HEAD
             {
                 for (int j = 0; j < expectedList.Count; j++)
                 {
@@ -118,6 +119,14 @@ namespace TestProje
                    
             }
                
+=======
+                for (int j = 0; j < expectedList.Count; j++)
+                    if (i == j)
+                    {
+                        string elementText = refCategories[i].Text;
+                        Assert.AreEqual(expectedList[j], refCategories[i]);
+                    }
+>>>>>>> SecondTest
             Console.WriteLine("Version dva");
             if (refCategories.Count == expectedList.Count)
             {
