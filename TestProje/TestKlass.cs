@@ -106,7 +106,7 @@ namespace TestProje
             "Звукові карти",
             };
             for (int i = 0; i < refCategories.Count; i++)
-<<<<<<< HEAD
+
             {
                 for (int j = 0; j < expectedList.Count; j++)
                 {
@@ -119,14 +119,14 @@ namespace TestProje
                    
             }
                
-=======
+
                 for (int j = 0; j < expectedList.Count; j++)
                     if (i == j)
                     {
                         string elementText = refCategories[i].Text;
                         Assert.AreEqual(expectedList[j], refCategories[i]);
                     }
->>>>>>> SecondTest
+
             Console.WriteLine("Version dva");
             if (refCategories.Count == expectedList.Count)
             {
@@ -139,8 +139,14 @@ namespace TestProje
                 string elementText = element.Text;
                 Console.WriteLine(elementText);
             }
+
+            IWebElement btnVideocards = Driver.FindElement(By.XPath("(//h4[@class='cat_name'][text()='Відеокарти']"));
+            btnVideocards.Click();
+
+            var chkMakerList = new List<string> { "kolia", "Anton" };
         }
 
+        
 
         [TearDown]
         public void CleanUp()
@@ -160,6 +166,9 @@ namespace TestProje
         public void Postcondition()
         {
             Driver.Close();
+           
         }
+       
+       
     }
 }
