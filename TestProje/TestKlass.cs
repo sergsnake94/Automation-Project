@@ -143,7 +143,7 @@ namespace TestProje
             IWebElement btnVideocards = Driver.FindElement(By.XPath("(//h4[@class='cat_name'][text()='Відеокарти']"));
             btnVideocards.Click();
 
-            List<IWebElement>chkMakerList=driver
+            var chkMakerList = new List<string> { "kolia", "Anton" };
         }
 
         
@@ -166,19 +166,9 @@ namespace TestProje
         public void Postcondition()
         {
             Driver.Close();
-            Pes dod = new Pes();
+           
         }
-        class Tvaryna
-        {
-            public string golova;
-        }
-        class Pes:Tvaryna
-        {
-            private string name;
-            public string GetName()
-            {
-                return name;
-            }
-        }
+       
+       
     }
 }
