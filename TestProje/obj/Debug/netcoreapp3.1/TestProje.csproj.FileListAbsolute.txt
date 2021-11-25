@@ -1,5 +1,5 @@
-C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\testhost.dll
 C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\Admin555\source\repos\TestProje\TestProje\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
